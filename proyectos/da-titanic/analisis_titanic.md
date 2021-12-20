@@ -157,7 +157,7 @@ ggplot(data_grupo, aes(x = Group, y = n, fill = Survived)) +
 
 Efectivamente, los datos muestran que las mujeres sobrevivieron en mucha mayor medida que los hombres (no es tan así en el caso de los niños). Según un estudio realizado en Suecia [(link)](https://www.bbc.com/mundo/noticias/2012/04/120413_mujeres_ninos_primero_mito_adz), las mujeres y los niños tienen una desventaja en cuanto a supervivencia, sin embargo el Titanic fue una excepción dado que el capitán amenazó con disparar a aquellos que lo desobedecieran. Anteriormente, la regla era "sálvese quién pueda", pero gracias al Titanic (y a otros sucesos como este), ahora se opta por el "mujeres y niños primero" como la forma de comportamiento en situaciones de emergencia.
 
-1.  Por último, ¿cómo se distribuye la clase (Pclass) en el grupo de sobrevivientes? ¿qué grupo presenta más sobrevivientes (o fallecidos)?
+2.  Por último, ¿cómo se distribuye la clase (Pclass) en el grupo de sobrevivientes? ¿qué grupo presenta más sobrevivientes (o fallecidos)?
 
 ``` r
 data_clase <- data %>%
