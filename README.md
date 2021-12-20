@@ -12,6 +12,8 @@ Este portfolio es una recopilación de ejercicios y proyectos de análisis de da
 ## Proyectos:
 
 - [Web Scraping de datos meteorológicos (EMA-UNSAM)](https://github.com/mnrodriguez28/data-analysis-portfolio/tree/main/proyectos/ema-unsam-ws)
+- [Breve análisis de los sobrevivientes del Titanic](https://github.com/mnrodriguez28/data-analysis-portfolio/blob/main/proyectos/da-titanic/analisis_titanic.md)
+- Dashboard con Power BI (en desarrollo)
 - Análisis Exploratorio de Datos (en desarrollo)
 
 ## Ejercicios:
@@ -19,6 +21,6 @@ Este portfolio es una recopilación de ejercicios y proyectos de análisis de da
 - [Air Pollution](https://github.com/mnrodriguez28/data-analysis-portfolio/blob/main/ejercicios/air_pollution.md). <br> Curso *R Programming* dictado por la Universidad de Johns Hopkins en Coursera.
 - [Arbolado en parques y veredas](https://github.com/mnrodriguez28/data-analysis-portfolio/blob/main/ejercicios/arbolado_parques_veredas.ipynb). <br> Curso *Programación en Python* dictado por la Universidad Nacional de San Martín.
 - [Demographic Data Analizer](https://github.com/mnrodriguez28/data-analysis-portfolio/blob/main/ejercicios/demographic_data_analizer.ipynb). <br> Curso *Data Analysis with Python* de freeCodeCamp.
-- [Medical Data Visualizer](https://colab.research.google.com/drive/1mUOSLBuxjB85VhBV62UGq1Lvq8kHuLPq?usp=sharing). <br> Curso *Data Analysis with Python* de freeCodeCamp.
+- [Medical Data Visualizer](https://colab.research.google.com/drive/1mUOSLBuxjB85VhBV62UGq1Lvq8kHuLPq?usp=sharing) (en Google Colab). <br> Curso *Data Analysis with Python* de freeCodeCamp.
 - [Page Views Time Series Visualizer](https://github.com/mnrodriguez28/data-analysis-portfolio/blob/main/ejercicios/time_series_visualizer.ipynb). <br> Curso *Data Analysis with Python* de freeCodeCamp.
 
