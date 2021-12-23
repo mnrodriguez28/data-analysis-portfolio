@@ -157,7 +157,7 @@ ggplot(data_grupo, aes(x = Group, y = n, fill = Survived)) +
 
 Efectivamente, los datos muestran que las mujeres sobrevivieron en mucha mayor medida que los hombres (no es tan así en el caso de los niños). Según un estudio realizado en Suecia [(link)](https://www.bbc.com/mundo/noticias/2012/04/120413_mujeres_ninos_primero_mito_adz), las mujeres y los niños tienen una desventaja en cuanto a supervivencia, sin embargo el Titanic fue una excepción dado que el capitán amenazó con disparar a aquellos que lo desobedecieran. Anteriormente, la regla era "sálvese quién pueda", pero gracias al Titanic (y a otros sucesos como este), ahora se opta por el "mujeres y niños primero" como la forma de comportamiento en situaciones de emergencia.
 
-2.  Por último, ¿cómo se distribuye la clase (Pclass) en el grupo de sobrevivientes? ¿qué grupo presenta más sobrevivientes (o fallecidos)?
+2.  ¿Cómo se distribuye la clase (Pclass) en el grupo de sobrevivientes? ¿qué grupo presenta más sobrevivientes (o fallecidos)?
 
 ``` r
 data_clase <- data %>%
@@ -219,4 +219,4 @@ data_tasa
     ## 5 no       3rd      366         501  73.1
     ## 6 yes      3rd      135         501  26.9
 
-Del total de sobrevivientes el 40.8% fue de primera clase, 32.4% de tercera clase y sólo el 26.9% viajaba en segunda clase. A simple vista parecería que hubo menos sobrevivientes de esta última. Sin embargo, si observamos las tasas de supervivencia, la menor tasa es para la tercera clase con un total de 27 (26.9) de sobrevivientes por cada 100 pasajeros, siendo de 60 (59.9) para la primera y 43 (42.9) para la segunda.
+Del total de sobrevivientes el 40.8% fue de primera clase, 32.4% de tercera clase y sólo el 26.9% viajaba en segunda clase. A simple vista parecería que hubo menos sobrevivientes de esta última. Sin embargo, si observamos las tasas de supervivencia, la menor tasa es para la tercera clase con un total de 27 (26.9) sobrevivientes por cada 100 pasajeros, siendo de 60 (59.9) para la primera y 43 (42.9) para la segunda.
