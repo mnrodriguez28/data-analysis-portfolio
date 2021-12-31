@@ -11,7 +11,7 @@ Este portfolio es una recopilación de ejercicios y proyectos de análisis de da
 
 ## Proyectos:
 
-- [Web Scraping de datos meteorológicos (EMA-UNSAM)](https://github.com/mnrodriguez28/data-analysis-portfolio/tree/main/proyectos/ema-unsam-ws)
+- [Web Scraping de datos meteorológicos (EMA-UNSAM)](https://github.com/mnrodriguez28/data-analysis-portfolio/blob/main/proyectos/ema-unsam-ws/ws_ema_unsam.ipynb)
 - [Breve análisis de los sobrevivientes del Titanic](https://github.com/mnrodriguez28/data-analysis-portfolio/blob/main/proyectos/da-titanic/analisis_titanic.md)
 - [Dashboard de reclamos por arbolado y espacios verdes](https://github.com/mnrodriguez28/data-analysis-portfolio/blob/main/proyectos/pbi-suaci-arbolado/pbi-suaci-arbolado.ipynb)
 - Análisis Exploratorio de Datos (en desarrollo)
