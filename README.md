@@ -7,7 +7,7 @@ Este portfolio es una recopilación de ejercicios y proyectos de análisis de da
 
 ## Investigaciones:
 
-- [Asociación entre perfeccionismo con síntomas de depresión](https://github.com/mnrodriguez28/data-analysis-portfolio/tree/main/investigaciones/asociacion_perfeccionismo_depresion)
+- Not all Depressive Symptoms were equally associated to Perfectionism and Emotional Intolerance in Argentinian undergraduate students during COVID-19 lockdown (en revisión).
 
 ## Proyectos:
 
