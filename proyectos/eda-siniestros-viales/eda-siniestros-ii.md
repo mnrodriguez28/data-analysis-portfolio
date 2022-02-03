@@ -42,7 +42,7 @@ dim(siniestros)
 
     ## [1] 33234    29
 
-Como vimos en la Parte I, `siniestros` contiene 33234 filas y 29 columnas pero, para este análisis, sólo vamos a utilizar los accidentes que ocurrieron los fines de semana (viernes, sábado y domingo) entre las 00:00 y 08:00 hs. Para esto, primero transformamos la variable `hora` en el tipo de dato datetime y, luego, filtramos por día y horario y agrupamos por comuna para tener el total de accidentes por cada una de ellas.
+Como vimos en la Parte I, `siniestros` contiene 33234 filas y 29 columnas pero, para este análisis, sólo vamos a utilizar los accidentes que ocurrieron los fines de semana (viernes, sábado y domingo) entre las 00:00 y 08:00 hs. Para esto, primero transformamos la variable `fecha` en el tipo de dato datetime y, luego, filtramos por día y horario y agrupamos por comuna para tener el total de accidentes por cada una de ellas.
 
 ``` r
 siniestros_fecha <- siniestros %>%
@@ -124,7 +124,7 @@ ggplot() +
     geom_sf(data = comuna_siniestros, aes(fill = casos)) +
     scale_fill_viridis_c() +
     geom_sf(data = locales_sf, color = "red") +
-    labs(title = "Siniestros viales en fin de semana",
+    labs(title = "Siniestros viales en fin de semana. Horario nocturno.",
          subtitle = "CABA, 2015-2018")
 ```
 
